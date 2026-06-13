@@ -1,9 +1,12 @@
+# PART 1
+
 import sqlite3
 import pandas as pd
 import os
 
 DB_PATH = "clinical.db"
 CSV_PATH = "cell-count.csv"
+
 
 
 def initialize_db(cursor):
